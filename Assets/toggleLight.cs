@@ -21,13 +21,13 @@ public class Flashlight : MonoBehaviour
         }
 
         if(Input.GetMouseButtonDown(1)) {
-            if (lightColor == 0) { //if normal light is on 
+            if (lightColor == 0) { //if Green light is on 
                 lightColor = 1;
-                light.color = new Color32(255, 255, 255, 255); //swap to UV light color
+                light.color = new Color32(255, 0, 0, 255); //swap to Red light color
             } 
-            else { //if UV light is on
+            else { //if Red light is on
                 lightColor = 0;
-                light.color = new Color32(118, 91, 255, 255); //swap to normal light color
+                light.color = new Color32(0, 255, 0, 255); //swap to Green color
             }
         }
     }
