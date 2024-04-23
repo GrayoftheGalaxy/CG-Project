@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
     public float speed = 12f;
     public float gravity = -9.81f;
-    public float jumpHeight = 3f;
+    public float jumpHeight = 7f;
     Vector3 velocity;
     bool isGrounded;
 
