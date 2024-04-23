@@ -7,6 +7,9 @@ TagManager:
   - Cube
   - RedCube
   - GreenCube
+  - Door
+  - DoorGreen
+  - DoorRed
   layers:
   - Default
   - TransparentFX
