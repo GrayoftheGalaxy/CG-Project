@@ -8,7 +8,7 @@ public class Flashlight : MonoBehaviour
     Light light;
     private bool lightOn = true;
     private int lightColor = 0;
-    private int maxReflections = 5; //Maximum number of times a ray can reflect.
+    private int maxReflections = 100; //Maximum number of times a ray can reflect.
 
     void Start() {
         light = GetComponent<Light>();
